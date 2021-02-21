@@ -3,12 +3,16 @@
 }
 
 body {
+  --afritic-color: #0a369d;
+  --afritic-text-wb-color: #305697;
+  overflow: hidden;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #d7e7ff;
 }
 
 code {
