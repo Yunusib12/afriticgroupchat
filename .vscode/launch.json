@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "Projects:y:/Google Drive/Projects/afriticgroupchat/src/features/appSlice.selectConfirmShowChannel (nodejs14.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "\\Google Drive\\Projects\\afriticgroupchat",
+                "lambdaHandler": "y:/Google Drive/Projects/afriticgroupchat/src/features/appSlice.selectConfirmShowChannel"
+            },
+            "lambda": {
+                "runtime": "nodejs14.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}

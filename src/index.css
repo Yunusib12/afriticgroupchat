@@ -3,8 +3,11 @@
 }
 
 body {
-  --afritic-color: #0a369d;
+  --afritic-color: #11428b;
   --afritic-text-wb-color: #305697;
+  --afritic-border: #25499e;
+  --afritic-hr: #13458f;
+  --afritic-hover: #0f4494;
   overflow: hidden;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

@@ -20,9 +20,12 @@ const Header = () => {
                     src={user?.photoURL}
                     alt={user?.displayName}
                 />
+            </HeaderLeft>
+
+            <HeaderCenter>
                 <AccessTimeIcon />
                 <p>{date}, {time} - {wish}</p>
-            </HeaderLeft>
+            </HeaderCenter>
 
             <HeaderRight>
                 <HelpOutlineIcon />
@@ -48,14 +51,9 @@ const HeaderContainer = styled.div`
 
 const HeaderLeft = styled.div`
     display: flex;
-    flex: 0.37;
+    flex: 0.2;
     align-items: center;
     margin-left:20px;
-
-    > .MuiSvgIcon-root{
-        margin-right: 10px;
-        margin-left:auto;
-    }
 `;
 
 const HeaderAvatar = styled(Avatar)`
@@ -76,4 +74,14 @@ const HeaderRight = styled.div`
          margin-left: auto;
          margin-right: 20px;
      }
+`;
+
+const HeaderCenter = styled.div`
+     display: flex;
+
+
+     > .MuiSvgIcon-root{
+        margin-right: 10px;
+        margin-left:auto;
+    }
 `;
